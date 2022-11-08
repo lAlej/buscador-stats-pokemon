@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+
+        <div class="seacher">
+
+            <div class="input-container">
+                
+                <h1>Pokemon Searcher:</h1>
+
+                <div class="input-items">
+
+                    <input class="input-pokemon" type="text" placeholder="Escribe el pokemon">
+                    <button class="search-pokemon">Buscar</button>
+                </div>
+
+                <div class="noLoad">
+                    <p>Escribe el nombre de un pokemon real</p>
+                </div>
+            </div>
+
+            <div class="result-pokemon">
+                
+                <p class="pokemon-name"></p>
+
+                <img class="pokemon-img" alt="pokemon">
+
+
+                <div class="stats-container">
+
+                    <div class="hp-container stat">
+
+                        <div class="stats-hp stat">
+                            <p>PS:</p>
+                            <P class="number-hp"></P>
+                        </div>
+
+                        <progress class="progress-hp" max="255" value=""></progress>
+
+                    </div>
+
+                    <div class="attack-container stat">
+
+                        <div class="stats-attack stat">
+                            <p>Attack:</p>
+                            <P class="number-attack"></P>
+                        </div>
+
+
+                        <progress class="progress-attack" max="255" value=""></progress>
+
+                    </div>
+
+                    <div class="defense-container stat">
+                        <div class="stats-defense stat">
+                            <p>Defense:</p>
+                            <P class="number-defense"></P>
+                        </div>
+
+
+                        <progress class="progress-defense" max="255" value=""></progress>
+
+                    </div>
+
+                    <div class="sAttack-container stat">
+                        <div class="stats-specAttack stat">
+
+                            <p>Spec.Attack:</p>
+                            <P class="number-specAttack"></P>
+
+                        </div>
+
+
+                        <progress class="progress-sAttack" max="255" value=""></progress>
+
+                    </div>
+
+                    <div class="sDefende-container stat">
+                        <div class="stats-specDefense stat">
+                            <p>Spec.Defense:</p>
+                            <P class="number-specDefense"></P>
+                        </div>
+
+
+                        <progress class="progress-sDefense" max="255" value=""></progress>
+
+                    </div>
+
+                    <div class="speed-container stat">
+                        <div class="stats-speed stat">
+                            <p>Speed:</p>
+                            <P class="number-speed"></P>
+                        </div>
+
+
+                        <progress class="progress-speed" max="255" value=""></progress>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>

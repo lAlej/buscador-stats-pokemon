@@ -1,0 +1,103 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 15px;
+    color: #B22222;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 50px;
+}
+
+.seacher {
+    background-color: #FFA07A;
+    padding: 20px;
+    border-radius: 20px;
+    height: 100px;
+    overflow: hidden;
+    transition: all .8s;
+}
+
+.noLoad {
+    display: none;
+    transition: all 1s;
+}
+
+.noLoad p {
+    margin: 30px 0;
+    font-size: 14px;
+}
+
+.input-container {
+    margin: 10px 5px 50px 5px;
+}
+
+.input-container h1 {
+    font-size: 2rem;
+}
+
+.input-items {
+    margin: 20px 0;
+}
+
+.input-items input {
+    outline: none;
+    border: none;
+    border-radius: 3px;
+    height: 20px;
+    padding: 0 0 0 10px;
+}
+
+.input-items button {
+    width: 80px;
+    height: 20px;
+    border-radius: 3px;
+    border: none;
+}
+
+.input-items button:hover {
+    background-color: #EEE;
+}
+
+.pokemon-name {
+    font-size: 1.5rem;
+}
+
+.pokemon-img {
+    margin: 50px 0;
+    width: 150px;
+    padding: 30px;
+    background-color: #FFF;
+    border-radius: 20px;
+}
+
+.stat {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10px;
+    margin: 10px 0;
+}
+
+progress {
+    width: 150px;
+    height: 15px;
+    border-radius: 10px;
+    background: #B22222;
+}
+
+progress::-webkit-progress-bar {
+    background-color: #eeeeee;
+    border-radius: 10px;
+}
+
+progress::-webkit-progress-value {
+    background-color: #B22222;
+    border-radius: 10px 0 0 10px;
+}
